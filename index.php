@@ -12,7 +12,7 @@
 
     <div class="container home">
 
-        <h1>Welkom bij de technische dienst</h1>
+        <h1>Welkom bij de technische dienst!</h1>
         <img src="public_html/img/logo-big-fill-only.png" alt="logo">
 
     </div>
