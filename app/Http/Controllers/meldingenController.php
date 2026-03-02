@@ -25,4 +25,4 @@ $statement->execute([
     ':overige_info' => $overige_info
 ]);
 
-echo "<br>Melding succesvol opgeslagen!";
+header('Location: ../../../resources/views/meldingen/index.php');
