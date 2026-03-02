@@ -6,7 +6,7 @@ $melder = $_POST['melder'];
 $overige_info = $_POST['overige_info'];
 
 $prioriteit = isset($_POST['prioriteit']) ? 1 : 0;
-echo $attractie . " / " . $type . " / " . $capaciteit . " / " . $melder;
+echo $attractie . " / " . $type . " / "  . $prioriteit . " / " . $capaciteit . " / " . $melder . " / " . $overige_info;
 require_once '../../../config/conn.php';
 
 $query = "INSERT INTO meldingen 
