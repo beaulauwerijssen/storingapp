@@ -29,12 +29,14 @@
             $meldingen = $statement->fetchAll(PDO::FETCH_ASSOC);
         ?>
         <?php foreach($meldingen as $item):?>
-        <p><?php echo $item['attractie'];?></p>
-        <p><?php echo $item['type'];?></p>
-        <p><?php echo $item['prioriteit'];?></p>
-        <p><?php echo $item['capaciteit'];?></p>
-        <p><?php echo $item['melder'];?></p>
-        <p><?php echo $item['overige_info'];?></p>
+        <div>
+            <p><?php echo $item['attractie'];?></p>
+            <p><?php echo $item['type'];?></p>
+            <p><?php echo $item['prioriteit'];?></p>
+            <p><?php echo $item['capaciteit'];?></p>
+            <p><?php echo $item['melder'];?></p>
+            <p><?php echo $item['overige_info'];?></p>
+        </div>
         <?php endforeach; ?>
         </div>
     </div>
